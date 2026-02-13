@@ -24,7 +24,7 @@ st.markdown("""
 
 # --- SETTINGS ---
 EOL_THRESHOLD = 1.4  # Capacity (Ah) threshold for replacement
-DATA_DIR = "data"    # Folder where individual .csv files are stored
+DATA_DIR = "data_sample"    # Folder where individual .csv files are stored
 
 # --- DATA LOADING ---
 @st.cache_data
